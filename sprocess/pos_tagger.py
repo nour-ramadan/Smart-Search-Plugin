@@ -13,7 +13,7 @@ class pos_tagger:
     def __init__(
             self,
             model_type=Models.ARABIC_FAST,
-            jar_file_path='E:\\Smart Search Engine\\POS\\stanford-postagger\\stanford-postagger.jar'
+            jar_file_path='E:\\Smart Search Engine\\pos\\stanford-postagger\\stanford-postagger.jar'
     ):
         java_path = "C:\\Program Files\\Java\\jdk1.8.0_60\\bin\\java.exe"
         os.environ['JAVAHOME'] = java_path
